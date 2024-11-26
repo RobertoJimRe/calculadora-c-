@@ -47,7 +47,16 @@ int main()
             }
             case 4:
             {
-                cout << "division" << endl;
+                double dividiendo, divisor;
+				cout << "division" << endl;
+                cout << "Ingresa el numero al que se va a estar dividiendo\n";
+                cin >> dividiendo;
+                cout << "Ingresa el numero por el que se va dividir\n";
+                cin >> divisor;
+                cout << "La division de " << divisor << "/" << dividiendo;
+                cout << "\nEl resultado de la operacion es: "<< divisor/dividiendo;
+                cout << "\n\nDeseas realizar otra operacion? (s/n): ";
+                cin >> continuar;
                 break;
             }
             case 5:
