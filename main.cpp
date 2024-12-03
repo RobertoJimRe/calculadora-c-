@@ -25,6 +25,7 @@ int main()
             {
             case 1:
             {
+                cout << "suma" << endl;
                 double a, b;
                 cout << "= = = suma = = =" << endl;
                 cout << "Numero 1: ";
@@ -37,8 +38,15 @@ int main()
             }
             case 2:
             {
-                cout << "resta" << endl;
-                break;
+                double a, b;
+                cout << "= = = resta = = =" << endl;
+                cout << "Numero 1: ";
+                cin >> a;
+                cout << "Numero 2: ";
+                cin >> b;
+                cout << "La resta de " << a << " - " << b << " = " << a-b;
+                cout << "\n\nDeseas realizar otra operacion? (s/n): ";
+                cin >> continuar;
             }
             case 3:
             {
