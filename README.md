@@ -1,2 +1,1 @@
-"# calculadora-c-" 
-"# calculadora-c-" 
+Calculadora básica desarrollada en c++
